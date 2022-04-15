@@ -1,0 +1,88 @@
+@import "https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css";
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+$font: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', Pretendard, Roboto, 'Noto Sans KR', 'Segoe UI', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+
+/* COMMON */
+* {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+}
+.flex-space {
+  flex-grow: 1;
+}
+
+/* HEADER */
+body {
+  height: 5000px;
+  background-color: #f3f3f3;
+}
+header {
+  width: 100%;
+  position: fixed;
+
+  .inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 1150px;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+  }
+  
+  .logo {
+
+    img {
+    top: 0%;
+    bottom: 0;
+    margin: 0 auto;
+    }
+  }
+
+  .download-btn {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: $font;
+    color: #fff;
+    background-color: #1C49FF;
+    padding: 12px 32px;
+    margin-right: 52px;
+    border-radius: 13px;
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+
+  .dropdown {
+    margin-top: 50px;
+    &__kor {
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: $font;
+      padding: 12px 24px;
+      margin-left: 2px;
+      &__name {
+        margin: 0 6px 0 8px;
+      }
+    }
+
+    &__eng {
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: $font;
+      padding: 12px 24px;
+      background-color: #fff;
+      width: 132px;
+      border-radius: 10px;
+      p {
+        margin: 0 6px 0 8px;
+      }
+    }
+  }
+}
