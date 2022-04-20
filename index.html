@@ -4,9 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speak - 영어 스피킹은 스픽</title>
+
   <link rel="stylesheet" href="/scss/main.scss">
+  <link rel="icon" href="./favicon.png">
+
+  <!-- ScrollMagic -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+
   <script defer src="./main.js"></script>
-  <title></title>
+
 </head>
 <body>
 
@@ -14,25 +21,27 @@
   <!-- HEADER -->
   <header>
 
-    <div class="inner">
+    <div class="inner scroll-spy">
       
       <div class="logo">
         <img src="./images/logo nav.svg" alt="logo">
       </div>
       <div class="flex-space"></div>
-      <div class="download-btn">
-        <a href="#">지금 다운로드</a>
+      <div class="download-btn back-to-position download">
+        <a href="https://apps.apple.com/kr/app/id1286609883?pid=owned_website&c=website&af_adset=bottom&af_ad=download&af_channel=speak.com" target="_blank" rel="noreferrer noopener">
+          지금 다운로드
+        </a>
       </div>
 
       <div class="dropdown">
         <div class="dropdown__kor">
           <img src="./images/Korean flag.svg" alt="Korean-flag">
-          <p class="dropdown__kor__name">KOR</p>
+          <p class="name">KOR</p>
           <img src="./images/arrow down.svg" alt="arrow-down">   
         </div>
         <div class="dropdown__eng">
           <img src="./images/US flag.svg" alt="US-flag">
-          <p class="dropdown__eng__name">ENG</p>
+          <p class="name">ENG</p>
         </div>
       </div>
 
@@ -42,33 +51,34 @@
 
   <!-- SECTION -->
   <section>
-
-    <div class="hero">
+    <section class="hero scroll-spy">
       <div class="inner">
         <div class="inner__left">
-          <p>영어 스피킹은</p>
-          <p class="blue-bold">스픽</p>
-          <ul>
+          <p class="back-to-position speaking">영어 스피킹은<br><span class="blue-bold">스픽</span></p>
+          <ul class="back-to-position speaking-2">
             <li>기존 영어 인강보다 10배 많은 스피킹 연습</li>
             <li>스픽 음성인식 기술이 내 틀린 발음을 교정</li>
             <li>다양한 패턴으로 스피킹 연습 무한반복</li>
           </ul>
-          <div class="download-btn">
-            <a href="#">지금 다운로드</a>
+          <div class="download-btn back-to-position download">
+            <a href="https://apps.apple.com/kr/app/id1286609883?pid=owned_website&c=website&af_adset=bottom&af_ad=download&af_channel=speak.com" target="_blank" rel="noreferrer noopener">
+              지금 다운로드
+            </a>
           </div>
         </div>
         <div class="inner__right">
           <img src="./images/hero image-min.png" alt="hero-image" class="hero-image">
-          <img src="./images/card hero image.svg" alt="card-hero-image" class="card-hero-image">
+          <img src="./images/card hero image.svg" alt="card-hero-image" class="card-hero-image back-to-position hear">
           <img src="./images/qr code.svg" alt="qr-code" class="qr-code">
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="desktop-only">
-      <img src="./images/award-appstore.svg" alt="awrad-appstore" class="awrad-image">
-      <img src="./images/award-joseon.svg" alt="award-joseon" class="awrad-image">
-      <img src="./images/award-play.svg" alt="award-play" class="awrad-image">
+    <div class="desktop-only scroll-spy">
+      <img src="./images/award-appstore.svg" alt="awrad-appstore" class="awrad-image back-to-position rest-sentence">
+      <img src="./images/award-joseon.svg" alt="award-joseon" class="awrad-image back-to-position rest-sentence">
+      <img src="./images/award-play.svg" alt="award-play" class="awrad-image back-to-position rest-sentence">
+      </div>
     </div>
 
   </section>
@@ -77,38 +87,35 @@
   <!-- MAIN -->
   <main>
 
-    <div class="main-top">
+    <div class="main-top scroll-spy">
       <div class="main-top__inner">
-
-        <div class="header">
+        <div class="header back-to-position rest-sentence">
           <img src="./images/quotes.svg" alt="quotes">
-          <span>
+          <span class="">
             살면서 <span class="blue-bold">영어로 제일 많이</span> 말한 것 같아요!
           </span><br>
           <div class="text-block">- 스픽 유저 미지의 세계님 -</div>
         </div>
-
         <div class="bottom">
           <img src="./images/table kor.svg" alt="table">
         </div>
-        
       </div>
     </div>
 
-    <div class="main-middle">
+    <div class="main-middle scroll-spy">
       <div class="main-middle__inner">
         <div class="main-middle__inner__left">
-          <div class="ai-tech">
+          <div class="ai-tech back-to-position rest-sentence">
             <p>AI 음성인식기술로</p>
             <p>0.1초 발음교정</p>
           </div>
-          <div class="silicon">
+          <div class="silicon back-to-position rest-sentence">
             미국 실리콘밸리에서 개발한<br>
             고도화된 AI 음성인식기술이<br>
             내 영어 발음을 0.1초 만에<br>
             정확하게 교정해줍니다.
           </div>
-          <div class="data-container">
+          <div class="data-container back-to-position three-result">
             <div class="speed">
               <div class="speed__top">
                 0.1<span>초</span>
@@ -135,27 +142,24 @@
             </div>
           </div>
         </div>
-
         <div class="main-middle__inner__right">
           <img src="./images/ai-1.svg" alt="ai-1" class="ai-1">
           <img src="./images/ai-2.svg" alt="ai-2" class="ai-2">
-          <img src="./images/mic-1.svg" alt="mic-1" class="mic-1">
-          <img src="./images/mic-2.svg" alt="mic-2" class="mic-2">
-          <img src="./images/mic-3.svg" alt="mic-3" class="mic-3">
+          <img src="./images/mic-1.svg" alt="mic-1" class="mic-1 back-to-position mic-1">
+          <img src="./images/mic-2.svg" alt="mic-2" class="mic-2 back-to-position mic-2">
+          <img src="./images/mic-3.svg" alt="mic-3" class="mic-3 back-to-position mic-3">
         </div>
       </div>
-
     </div>
     
-    <div class="main-bottom">
+    <div class="main-bottom scroll-spy">
       <div class="main-bottom__inner">
-
         <div class="main-bottom__inner__top">
-          <div class="left">
+          <div class="left back-to-position rest-sentence">
             조작할 수 없는<br>
             <span class="blue-bold">앱스토어 후기</span> 
           </div>
-          <div class="right">
+          <div class="right back-to-position three-result">
             <div class="rating">
               <img src="./images/stars.svg" alt="star" class="star">
               <div class="rating__text">앱스토어 평가</div>
@@ -163,7 +167,7 @@
                 4.8<span>/5</span>
               </div>
             </div>
-            <div class="review">
+            <div class="review back-to-position three-result">
               <img src="./images/stars.svg" alt="star" class="star">
               <div class="review__text">앱스토어 리뷰</div>
               <div class="review__number">
@@ -172,13 +176,9 @@
             </div>
           </div>
         </div>
-
         <div class="main-bottom__inner__bottom">
-
           <div class="reviews-container">
-
             <div class="reviews-card">
-
               <div class="reviews-card__top">
                 <div class="reviews-card__top__left">
                   <p class="card-text">
@@ -192,7 +192,6 @@
                   <p class="card-date">10월 1일</p>
                   <p class="card-reviewer">세미심</p>
                 </div>
-
               </div>
 
               <div class="reviews-card__bottom">
@@ -333,14 +332,15 @@
       </div>
     </div>
 
-    <div class="main-bottom-footer">
+    <div class="main-bottom-footer scroll-spy">
       <div class="center-block">
-        <p class="center-block__text">
+        <p class="center-block__text back-to-position rest-sentence">
           후기가 증명하는 <span class="blue-bold">앱스토어 1등 영어 앱</span>,<br>
           지금 바로 경험해보세요
         </p>
-        <div class="center-block__btn">
-          지금 다운로드
+        <div class="center-block__btn download-btn back-to-position download">
+          <a href="https://apps.apple.com/kr/app/id1286609883?pid=owned_website&c=website&af_adset=bottom&af_ad=download&af_channel=speak.com" target="_blank" rel="noreferrer noopener">
+            지금 다운로드</a> 
         </div>
       </div>
     </div>
@@ -352,29 +352,33 @@
     <div class="inner">
       <div class="inner__top">
         <div class="inner__top__left">
-          <a href="#">자주 묻는 질문</a>
-          <a href="#">공식 인스타그램</a>
-          <a href="#">습관 완성 환급 프로그램</a>
+          <a href="https://www.notion.so/9233cb5e410a4d6889500a29bdcdb109" target="_blank" rel="noreferrer noopener">자주 묻는 질문</a>
+          <a href="https://www.instagram.com/speak_kr/?utm_source=website" target="_blank" rel="noreferrer noopener">공식 인스타그램</a>
+          <a href="https://www.speak.com/package" target="_blank" rel="noreferrer noopener">습관 완성 패키지 구매하기</a>
         </div>
         <div class="inner__top__middle">
-          <a href="#">B2B/제휴 문의</a>
-          <a href="#">앱 다운로드 받기</a>
+          <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=biz_kr@usespeak.com" target="_blank" rel="noreferrer noopener">B2B/제휴 문의</a>
+          <a href="https://apps.apple.com/kr/app/id1286609883?pid=owned_website&c=website&af_adset=footer&af_ad=download&af_channel=speak.com" target="_blank" rel="noreferrer noopener">앱 다운로드 받기</a>
           <div class="btn-container">
-            <img src="./images/apple-button.svg" alt="apple-button" class="apple-button">
-            <img src="./images/google-button.svg" alt="google-button">
+            <a href="https://apps.apple.com/us/app/speak-ai-%EC%98%81%EC%96%B4-%EA%B5%90%EC%82%AC/id1286609883?ls=1" target="_blank" rel="noreferrer noopener">
+              <img src="./images/apple-button.svg" alt="apple-button" class="apple-button">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.selabs.speak" target="_blank" rel="noreferrer noopener">
+              <img src="./images/google-button.svg" alt="google-button">
+            </a>
           </div>
         </div>
         <div class="inner__top__right">
           <div class="flex-space"></div>
           <div class="dropdown">
-            <div class="dropdown__kor">
+            <div class="dropdown__kor__footer">
               <img src="./images/Korean flag.svg" alt="Korean-flag">
-              <p class="dropdown__kor__name">KOR</p>
-              <img src="./images/arrow down.svg" alt="arrow-down">   
+              <p class="name">KOR</p>
+              <img src="./images/arrow down.svg" alt="arrow-down" class="footer-arrow">   
             </div>
-            <div class="dropdown__eng">
+            <div class="dropdown__eng__footer">
               <img src="./images/US flag.svg" alt="US-flag">
-              <p class="dropdown__eng__name">ENG</p>
+              <p class="name">ENG</p>
             </div>
           </div>
         </div>
@@ -382,11 +386,11 @@
       <div class="inner__bottom">
         <p>
           스픽이지랩스코리아 주식회사 | 대표이사: 코너니콜라이즈윅    전화번호/이메일: 1668-1051/support@usespeak.com<br>
-          주소: 서울특별시 강남구 테헤란로27길 16 (BMY역삼타워) 9층      사업자등록번호: 553-86-02127 | 법인등록번호: 110111-7650834<br>
+          주소: 서울특별시 강남구 테헤란로27길 16 (BMY역삼타워) 9층 사업자등록번호: 553-86-02127 | 법인등록번호: 110111-7650834<br>
           통신판매업 신고번호: 제 2020-서울강남-02835호
         </p>
-        <a href="#">서비스 이용약관</a>
-        <a href="#">개인정보 처리방침</a>
+        <a href="http://notion.so/usespeak/5a9643bc1e774a76afb1930abec99f39" target="_blank" rel="noreferrer noopener">서비스 이용약관</a>
+        <a href="http://notion.so/usespeak/29b9293ddabc48bcb1b059bc84e8f490" target="_blank" rel="noreferrer noopener">개인정보 처리방침</a>
         <p>© 2020 Speakeasy Labs, Inc. All rights reserved.</p>
       </div>
     </div>
