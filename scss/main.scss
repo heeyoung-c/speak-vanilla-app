@@ -86,16 +86,15 @@ img {
   background-color: #1C49FF;
   color: #fff;
   letter-spacing: 0px;
-  transition-duration: .2s;
-  &:hover {
-    opacity: .5;
-  }
 }
 
 .back-to-position {
   opacity: 0;
   &.download {
-    transition-duration: 3s;
+    transition-duration: 2s;
+    &:hover {
+      opacity: .5;
+    }
   }
   &.hear {
     transition-duration: 1.5s;
