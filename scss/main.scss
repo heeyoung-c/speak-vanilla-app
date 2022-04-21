@@ -582,10 +582,8 @@ main {
           grid-row-gap: 21px;
 
           margin-top: 60px;
-
         }
         .reviews-card {
-          width: auto;
           height: 193px;
           padding: 20px 15px 15px;
           border-radius: 12px;
@@ -594,6 +592,7 @@ main {
           font-family: $font;
           &__top {
             display: flex;
+            justify-content: space-between;
 
             height: 48px;
             margin-bottom: 10px;
