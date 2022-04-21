@@ -118,6 +118,7 @@ $ npm i -D parcel-bundler # 개발 의존성으로 번들러 설치
   "dev": "parcel index.html",
   "build": "parcel build index.html"
 }
+
 // scripts 작성
 ```
 
@@ -163,7 +164,7 @@ package.json 파일에 다음과 같이 설정을 추가했습니다<br>
 
 ```js
 module.exports = {
-  Plugins: [
+  plugins: [
     require('autoprefixer'),
     require('postcss-fail-on-warn')
   ]
