@@ -36,16 +36,14 @@
 <br>
 
 ## 과제 링크
-클론 대상 홈페이지 [Speak](https://www.speak.com/ko)
-
+>-클론 대상 홈페이지: [Speak](https://www.speak.com/ko)<br>
+-netlify를 통해 배포한 페이지: [ChunHeeyoung](https://cosmic-paprenjak-6680f7.netlify.app)
 
 <br>
 <br>
 
 
 # 🧐이번 프로젝트에서 사용했습니다..
-<br>
-<br>
 
 ## Reset.css
 
