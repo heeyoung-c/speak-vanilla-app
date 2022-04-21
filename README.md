@@ -105,7 +105,7 @@ spyEls.forEach(function (spyEl) {
 <u>'Part 1. Ch 10. 스타벅스 예제 - 요소 슬라이드 파트'</u>를 통해 학습하여 코드를 참조하였습니다
 
 ## Parcel
-Parcel 번들러를 사용하여 웹에서 scss를 css로 변환하였습니다
+Parcel 번들러를 사용하여 웹에서 scss를 css로 변환하였습니다<br>
 [Parcel](https://ko.parceljs.org/)
 
 ```bash
@@ -118,8 +118,6 @@ $ npm i -D parcel-bundler # 개발 의존성으로 번들러 설치
   "dev": "parcel index.html",
   "build": "parcel build index.html"
 }
-
-// scripts 작성
 ```
 
 ## Parcel plugin static files copy
