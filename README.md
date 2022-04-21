@@ -116,7 +116,7 @@ $ npm i -D parcel-bundler # 개발 의존성으로 번들러 설치
 ```json
 "scripts": {
   "dev": "parcel index.html",
-  "build": "parcel build index.html
+  "build": "parcel build index.html"
 }
 // scripts 작성
 ```
