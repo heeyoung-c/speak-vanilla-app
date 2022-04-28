@@ -276,3 +276,6 @@ korFooterEl.addEventListener('click', () => {
 그럼에도, 어떻게든 마무리 했다는 점에서 뿌듯하긴 하네요😁
 
 이번 경험을 통해 조금이나마 발전을 했다고 생각하고 있습니다
+
+# Ref
+해당 repo는 학습을 목적으로 [Speak](https://www.speak.com/ko) 해당 사이트를 클론코딩하였습니다
