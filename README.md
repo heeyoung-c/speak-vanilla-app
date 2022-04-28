@@ -37,7 +37,7 @@
 
 ## 과제 링크
 >-클론 대상 홈페이지: [Speak](https://www.speak.com/ko)<br>
--netlify를 통해 배포한 페이지: [ChunHeeyoung](https://cosmic-paprenjak-6680f7.netlify.app)
+-netlify를 통해 배포한 페이지: [ChunHeeyoung](https://golden-palmier-4fef1e.netlify.app/)
 
 <br>
 <br>
