@@ -6,29 +6,15 @@ const footerArrowEl = document.querySelector('.footer-arrow')
 
 // dropdown 메뉴 클릭시, eng 블록이 보이고, 사라지는 기능
 korEl.addEventListener('click', () => {
-
-  if (engEl.classList.contains('show')) {
-  engEl.classList.remove('show')
-
-  } else {
-    engEl.classList.add('show')
-    } 
+  engEl.classList.toggle('show')  
 })
 
 // 하단 dropdown 메뉴 클릭시, eng 블록이 보이고, 사라지는 기능
 // 동시에, arrowEl 가 180deg 회전한다
 korFooterEl.addEventListener('click', () => {
-
-  if (engFooterEl.classList.contains('show')) {
-  engFooterEl.classList.remove('show')
-  footerArrowEl.classList.remove('turn')
-
-  } else {
-    engFooterEl.classList.add('show')
-    footerArrowEl.classList.add('turn')
-    }
+engFooterEl.classList.toggle('show') 
+  footerArrowEl.classList.toggle('turn')
 })
-
 
 const spyEls = document.querySelectorAll('.scroll-spy')
 spyEls.forEach(function (spyEl) {
