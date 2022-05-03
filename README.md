@@ -27,7 +27,7 @@
 <br>
 
 # ![Speak](./favicon.png) Speak(영어 스피킹은 스픽) - Clone Coding
-[![Netlify Status](https://api.netlify.com/api/v1/badges/86600506-34e0-488c-8748-ca9955bb0332/deploy-status)](https://app.netlify.com/sites/golden-palmier-4fef1e/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/86600506-34e0-488c-8748-ca9955bb0332/deploy-status)](https://golden-palmier-4fef1e.netlify.app/)
 ## Preview
 ![Preview](./Speak-clone-coding.gif)
 
